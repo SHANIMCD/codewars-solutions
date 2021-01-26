@@ -10,5 +10,5 @@ makeNegative(0.12); // return -0.12
 
 ## Solution
 function makeNegative(num) {
-  return num - (num * 2)
+  return num < 0 ? num : num - (num * 2)
 }
